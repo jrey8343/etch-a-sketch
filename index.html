@@ -6,13 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch A Sketch</title>
-  <script src="script.js" defer></script>
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
+  <div class="container">
+    <label for="sides-select">Choose a number of squares per side:</label>
+    <select name="sides" id="sides-select">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button>Generate New Grid</button>
+    <div class="wrapper"></div>
+  </div>
 </body>
 
 </html>
