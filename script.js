@@ -2,7 +2,7 @@ const wrapper = document.querySelector('.wrapper');
 const button = document.querySelector('.container button');
 const root = document.querySelector(':root');
 
-createBoxes(4);
+createBoxes(6);
 
 
 function createBoxes(sides) {

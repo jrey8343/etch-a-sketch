@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem;
 }
 button {
   font-size: 1.5rem;
@@ -27,18 +27,18 @@ button:hover {
 }
 
 .wrapper {
+  width: 500px;
+  height: 500px;
   padding-top: 2rem;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(var(--grid-repeat), var(--grid-size));
-  grid-template-rows: repeat(var(--grid-repeat), var(--grid-size));
-  gap: var(--gap);
+  grid-template-columns: repeat(var(--grid-repeat), 1fr);
+  grid-template-rows: repeat(var(--grid-repeat), 1fr);
+  gap: 2px;
 }
 
 .box {
   background-color: thistle;
-  border-radius: 8px;
-  box-shadow: var(--shadow-elevation-medium);
 }
 
 .box:hover {
