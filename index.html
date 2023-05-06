@@ -17,14 +17,15 @@
 
 <body>
   <div class="container">
-    <label for="sides-select">Choose a number of squares per side:</label>
-    <select name="sides" id="sides-select">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-    </select>
-    <button>Generate New Grid</button>
+    <div class="userInterface">
+      <p class="readOut">Choose a number of squares per side</p>
+      <div class="slideWrapper">
+        <p>1</p>
+        <input type="range" min="1" max="100" value="4" name="range" id="range">
+        <p>100</p>
+      </div>
+      <button>Generate New Grid</button>
+    </div>
     <div class="wrapper"></div>
   </div>
 </body>

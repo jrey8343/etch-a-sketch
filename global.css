@@ -79,6 +79,5 @@ p, h1, h2, h3, h4, h5, h6 {
     17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
     25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
   --grid-repeat: 4;
-  --grid-size: calc(var(--grid-repeat) * 12.5px);
-  --gap: calc(var(--grid-repeat) * 1.1px);
+  --box-size: calc(600 / 4px);
 }

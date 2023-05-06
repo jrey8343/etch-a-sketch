@@ -9,6 +9,25 @@ body {
   align-items: center;
   padding: 5rem;
 }
+.userInterface {
+  width: 800px;
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: thistle;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-elevation-low);
+}
+.slideWrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 button {
   font-size: 1.5rem;
   border-radius: 8px;
@@ -27,9 +46,8 @@ button:hover {
 }
 
 .wrapper {
-  width: 500px;
-  height: 500px;
-  padding-top: 2rem;
+  width: 600px;
+  height: 600px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(var(--grid-repeat), 1fr);
