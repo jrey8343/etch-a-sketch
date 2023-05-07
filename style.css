@@ -22,6 +22,11 @@ body {
   border-radius: 8px;
   box-shadow: var(--shadow-elevation-low);
 }
+
+  .readOut {
+    min-width: 300px;
+    text-align: center;
+  }
 .slideWrapper {
   display: flex;
   gap: 8px;
@@ -53,14 +58,9 @@ button:hover {
   justify-content: center;
   grid-template-columns: repeat(var(--grid-repeat), 1fr);
   grid-template-rows: repeat(var(--grid-repeat), 1fr);
-  gap: 2px;
+  gap: 0.5px;
 }
 
 .box {
   background-color: thistle;
-}
-
-.box:hover {
-  cursor: pointer;
-  background-color: beige;
 }
